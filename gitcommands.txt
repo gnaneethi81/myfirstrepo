@@ -1,0 +1,175 @@
+
+git config --global user.name gnaneethi81
+git config --global user.email "gnaneethi81@gmail.com"
+git config --global branch.autosetuprebase always
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+ git config --list
+ git clone https://github.com/gnaneethi81/myfirstrepo.git
+ $git clone https://github.com/gnaneethi81/myfirstrepo.git
+Cloning into 'myfirstrepo'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+
+ls
+
+git init
+$ git init
+Initialized empty Git repository in C:/Users/srika/Git_training/.git/
+
+git add -A
+
+ git status
+
+ git commit -m "added new file to my repo"
+ 
+
+ git push origin master
+
+git log commands to check out log
+
+cherry-pick to pick particular comment
+
+git branch -D release  (to delete branch)
+ git checkout -b release  to create branch
+
+
+1.)diffrenche b/w git reset and revert
+2.) diffrence b/w revert and rebase 
+
+--------------------------------------------------------
+
+istory
+    1  mkdir Git_training
+    2  ls
+    3  cd Git_training/
+    4  ls
+    5  pwd
+    6  git config --global user.name gnaneethi81
+    7  git config --global user.email "gnaneethi81@gmail.com"
+    8  git config --global branch.autosetuprebase always
+    9  git config --global color.ui true
+   10  git config --global color.status auto
+   11  git config --global color.branch auto
+   12  git config --list
+   13  git init
+   14  git clone https://github.com/gnaneethi81/myfirstrepo.git
+   15  ls
+   16  cd myfirstrepo/
+   17  ls
+   18  vi README.md
+   19  cat README.md
+   20  git add -a
+   21  git add -A
+   22  git status
+   23  git commit -m "added new line to the readme file"
+   24  git status
+   25  git push origin master
+   26  git log
+   27  pwd
+   28  cd
+   29  ls
+   30  cd .ssh
+   31  pwd
+   32  cd Git_training/
+   33  cd ~
+   34  cd ~/.ssh
+   35*  ~/.ssh
+   36  cd ~/.sshgit
+   37  ls
+   38  ssh-keygen -t rsa -b 2045
+   39  ls
+   40  ls -la
+   41  cat id_rsa.pub
+   42  pwd
+   43  cd
+   44  cd Git_training/
+   45  ls
+   46  cd myfirstrepo/
+   47  ls
+   48  cat >>training
+   49  git status
+   50  git add
+   51  git add -A
+   52  git status
+   53  git commit -m
+   54  git commit -m "added new file to my repo"
+   55  git push master
+   56  git push origin master
+   57  git log
+   58  gitk
+   59  git checkout
+   60  git checkout origin master
+   61  git checkout origin master
+   62  git log
+   63  git status
+   64  git add -A
+   65  git status
+   66  git push origin master
+   67  git pull
+   68  ls
+   69  cat training
+   70  git --help
+   71  clearbr
+   72  git branch release
+   73  git branch
+   74  git checkout release
+   75  ls
+   76  cat > training2
+   77  ls
+   78  git add -A
+   79  git status
+   80  git commit -m " added new branch"
+   81  git status
+   82  git push origin release
+   83  clear
+   84  git checkout master
+   85  git merge release
+   86  ls
+   87  vi training2
+   88  git status
+   89  git add -A
+   90  git commit -m " added new line to training2 file"
+   91  git push origin master
+   92  git log
+   93  git checkout release
+   94  git cherry-pick 5a10eb7dbebe223169934897aa3230a045eebc30
+   95  ls
+   96  git status
+   97  cat training2
+   98  git log
+   99  git revert e8a9c0c720afa7fb0985a403d6c25fb1ccd95209
+  100  git status
+  101  gitk
+  102  cat training2
+  103  ls
+  104  cat training2
+  105  git pull
+  106  cat training2
+  107  git checkout master
+  108  ls
+  109  cat training2
+  110  git pull
+  111  ls
+  112  cat training2
+  113  git tag sreekanthv1
+  114  ls
+  115  git tag
+  116  git branch -D release
+  117  ls
+  118  git branch
+  119  git push
+  120  git status
+  121  git push origin master r
+  122  git push origin master
+  123  git pull
+  124  git checkout -b release
+  125  ls
+  126  git branch
+
+
